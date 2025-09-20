@@ -1,0 +1,96 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #f5eaea;
+color: #333;
+line-height: 1.6;
+}
+
+header{
+    background-color: #35424a;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    height: 7.4vh;
+    font-size: 2.3rem;
+}
+
+.tagline{
+    font-style: italic;
+    font-size: 1.2rem; 
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    /* max-width: 800px; */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    font-size: 1.8rem;
+}
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.website-shop{
+    text-decoration: none;
+    color: #35424a;
+    font-weight: bold;
+}
+
+.project-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skills-list{
+    column-count: 2; 
+    column-gap: 20px;
+}
+
+
+.resume-button {
+    display: inline-block;
+    background-color: #35424a;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resume-button:hover {
+    background-color: #555;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #35424a;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+

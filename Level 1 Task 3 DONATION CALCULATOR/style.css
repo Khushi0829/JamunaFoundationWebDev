@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d2dae0;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #0f5c30; 
+}
+
+p {
+    color: #5a1c1c;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.display {
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    justify-content: center;
+}
+
+.buttons-grid button {
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.donation-button {
+    background-color: #3da541;
+    color: white;
+}
+
+.donation-button:hover {
+    background-color: #388e3c;
+}
+
+.clear-button {
+    background-color: #950808;
+    color: white;
+}
+
+.calculate-button {
+    background-color: #1285af;
+    color: white;
+    justify-self: center;
+}
+
+.calculate-button:hover, .clear-button:hover {
+    opacity: 0.8;
+}
